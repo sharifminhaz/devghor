@@ -14,5 +14,6 @@
     #footer{
         padding-top: 3em;
         min-height: 30vh;
+        background: rgba(0,0,0,0.9);
     }
 </style>

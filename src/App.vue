@@ -1,13 +1,14 @@
 <template>
   <div id="app">
     <div style="width: 100%" class="header-div">
-      <Header ></Header>
+      <Header></Header>
     </div>
     <div class="body-div">
       <HelloWorld class="middle"/>
     </div>
     <About></About>
     <Service></Service>
+    <Portfolio></Portfolio>
     <Footer class="foot"></Footer>
   </div>
 </template>
@@ -18,6 +19,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import Service from "./components/Service";
+import Portfolio from "./components/Portfolio";
 
 export default {
   name: 'App',
@@ -26,6 +28,7 @@ export default {
     HelloWorld,
     About,
     Service,
+    Portfolio,
     Footer,
   }
 }

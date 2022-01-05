@@ -70,10 +70,13 @@
                 }
             }
             ul {
-                margin-left: 3em;
+
                 width: 35%;
                 display: flex;
                 justify-content: space-between;
+                @media (min-width: 452px){
+                    margin-left: 3em;
+                }
                 li, a {
                     cursor: pointer;
                     font-weight: 600;

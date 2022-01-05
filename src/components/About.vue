@@ -4,7 +4,7 @@
             <b-col class="text-start">
                 <h4 class="passage2">About Us</h4>
                 <h2 class="psg2ttl">Welcome To DevGhor</h2>
-                <p>Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
+                <p >Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed vitae rutrum neque. Ut id erat sit amet libero bibendum aliquam. Donec ac egestas libero, eu bibendum risus. Phasellus et congue justo.</p>
                 <a class="btn btn-new" href="/about">Learn More</a>
             </b-col>
             <b-col >
@@ -39,6 +39,7 @@
 <style lang="scss">
     .about{
         margin-top: 4em;
+        margin-bottom: 3em;
     }
     .abt-row{
         padding-top: 5em;
@@ -63,6 +64,19 @@
         line-height: 50px;
         margin-top: 0;
         text-transform: none;
+        @media (max-width: 452px){
+            font-size: 18px;
+            line-height: normal;
+        }
+    }
+     p{
+        text-align: justify;
+    }
+    @media (max-width: 452px) {
+        p {
+            font-size: 12px;
+            text-align: justify;
+        }
     }
     .btn-new{
         color: #ffffff !important;
